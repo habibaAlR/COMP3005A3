@@ -25,11 +25,11 @@ public class Main {
         if (conn != null) {
             System.out.println("Connected to PostgreSQL successfully!");
             // call to methods goes here
-            addStudent("Bob", "Williams","bob@gmail.com", "2023-09-06");
-            addStudent("Rose", "Roberts","rose@gmail.com", "2023-09-02");
-            updateStudentEmail(3, "testemail@example.com");
-            deleteStudent(3);
-            deleteStudent(4);
+//            addStudent("Bob", "Williams","bob@gmail.com", "2023-09-06");
+//            addStudent("Rose", "Roberts","rose@gmail.com", "2023-09-02");
+//            updateStudentEmail(3, "testemail@example.com");
+//            deleteStudent(3);
+//            deleteStudent(4);
             getAllStudents();
         } else {
             System.out.println("Failed to establish connection.");
